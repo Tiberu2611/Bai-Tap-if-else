@@ -1,0 +1,17 @@
+list = [1, 5, 2, 4, 3, 6, 9, 8, 7]
+print(sum(list))
+import math
+ list_prod = math.prod(list)
+ print(list_prod)
+print("Giá Trị Lớn Nhất ")
+print(max(list))
+print("Giá Trị Nhỏ Nhất")
+print(min(list))
+print("Sắp xếp theo giá trị tăng dần")
+list1.sort()
+print(list)
+print("Sắp xếp theo giá trị giảm dần")
+list1.sort(reverse = True)
+print(list)
+print("Số phần tử của mảng")
+len(list)
